@@ -1,0 +1,7 @@
+[package]
+name = "ternary-shard"
+version = "0.1.0"
+edition = "2021"
+description = "Sharded ternary data distribution for multi-GPU inference. Partitions ternary weight matrices across GPU nodes, each shard processes independently, results merge via ternary reduce."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/ternary-shard"
